@@ -36,18 +36,16 @@ main {
     box-sizing: border-box; /* Include padding in the width calculation */
     display: inline-block; /* Display the sections inline */
     vertical-align: top; /* Align the sections to the top */
-    padding: 20px; /* Add padding to increase text box size */
+    margin: 10px; /* Add margin to create space between sections */
 }
 
 /* Section Title */
 .section.desktop h2 {
-    position: absolute;
-    top: 0;
-    right: 0;
     background-color: #333;
     color: white;
     padding: 5px 10px;
     margin: 0;
+    text-align: right; /* Align the text to the right */
 }
 
 /* Tablet view */
