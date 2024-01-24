@@ -40,6 +40,21 @@ main {
     padding: 20px; /* Add padding to increase text box size */
 }
 
+/* Sushi section */
+.sushi {
+    background-color: white;
+}
+
+/* Chicken section */
+.chicken {
+    background-color: red;
+}
+
+/* Beef section */
+.beef {
+    background-color: blue;
+}
+
 /* Section Title */
 .section.desktop h2 {
     background-color: #333;
