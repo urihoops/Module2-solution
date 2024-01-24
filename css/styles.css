@@ -1,7 +1,7 @@
 /* Reset some default styles for better consistency */
 body, h1, h2, p {
-    margin: 20;
-    padding: 10;
+    margin: 0;
+    padding: 0;
 }
 
 /* Apply a basic style to the whole page */
@@ -37,6 +37,7 @@ main {
     display: inline-block; /* Display the sections inline */
     vertical-align: top; /* Align the sections to the top */
     margin: 10px; /* Add margin to create space between sections */
+    padding: 20px; /* Add padding to increase text box size */
 }
 
 /* Section Title */
@@ -46,6 +47,14 @@ main {
     padding: 5px 10px;
     margin: 0;
     text-align: right; /* Align the text to the right */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* Text inside the box */
+.section.desktop p {
+    margin-top: 30px; /* Add margin to push text down below the box */
 }
 
 /* Tablet view */
