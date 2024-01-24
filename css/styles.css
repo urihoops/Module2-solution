@@ -11,8 +11,8 @@ body {
 
 header {
     text-align: center;
-    background-color: #333;
-    color: white;
+    background-color: #f0f0f0; /* Neutral color for the header */
+    color: #333; /* Text color for the header */
     padding: 20px 0;
 }
 
@@ -34,6 +34,7 @@ main {
     border: 1px solid #000;
     background-color: #f0f0f0;
     position: relative;
+    padding: 20px; /* Add padding to increase text box size */
 }
 
 /* Section Title */
