@@ -29,30 +29,29 @@ main {
 
 /* Desktop view */
 .section.desktop {
-    width: 32%; /* Three sections in one row */
+    width: calc(33.33% - 20px); /* Three sections in one row, subtracting margin */
     margin-bottom: 20px;
     border: 1px solid #000;
     background-color: #f0f0f0;
     position: relative;
-    padding: 20px; /* Add padding to increase text box size */
     box-sizing: border-box; /* Include padding in the width calculation */
 }
 
 /* Section Title */
 .section.desktop h2 {
     position: absolute;
-    top: 0; /* Attach the headers to the top */
-    right: 0; /* Attach the headers to the right */
+    top: 0;
+    right: 0;
     background-color: #333;
     color: white;
     padding: 5px 10px;
-    margin: 0; /* Remove margin for the header */
+    margin: 0;
 }
 
 /* Tablet view */
 @media (max-width: 991px) {
     .section.desktop {
-        width: 49%; /* Two sections in one row */
+        width: calc(50% - 20px); /* Two sections in one row, subtracting margin */
     }
     .section.desktop:nth-child(3) {
         width: 100%; /* The third section takes the full width in a new row */
@@ -65,4 +64,3 @@ main {
         width: 100%; /* Each section takes full width in a new row */
     }
 }
-
