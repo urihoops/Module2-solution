@@ -31,10 +31,12 @@ main {
 .section.desktop {
     width: calc(33.33% - 20px); /* Three sections in one row, subtracting margin */
     margin-bottom: 20px;
-    border: 1px solid #000;
     background-color: #f0f0f0;
     position: relative;
     box-sizing: border-box; /* Include padding in the width calculation */
+    display: inline-block; /* Display the sections inline */
+    vertical-align: top; /* Align the sections to the top */
+    padding: 20px; /* Add padding to increase text box size */
 }
 
 /* Section Title */
