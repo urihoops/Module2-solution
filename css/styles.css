@@ -41,17 +41,17 @@ main {
 }
 
 /* Sushi section */
-.sushi {
+.section.desktop.sushi {
     background-color: white;
 }
 
 /* Chicken section */
-.chicken {
+.section.desktop.chicken {
     background-color: red;
 }
 
 /* Beef section */
-.beef {
+.section.desktop.beef {
     background-color: blue;
 }
 
